@@ -1,0 +1,165 @@
+/* Skills.css */
+
+/* Basic container */
+.skills-container {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  animation: fadeIn 1s ease-out;
+  background-image: url(C:\Users\nikhil.y\Downloads\01-starting-project\src\assets\STARS.webp);
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.skills-section {
+  margin: 2rem 0;
+}
+
+.skills-subtitle {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+  animation: slideInLeft 1s ease-out;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  background-image: url(C:\Users\nikhil.y\Downloads\01-starting-project\src\assets\rainblow.png);
+}
+
+.skills-list li {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 0.5rem 0;
+  color: white;
+  opacity: 0;
+  animation: fadeInListItem 0.6s ease-out forwards;
+}
+
+.skills-list li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.skills-list li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.skills-list li:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.skills-list li:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.skills-list li:nth-child(5) {
+  animation-delay: 1s;
+}
+
+/* Animation for fading in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation for sliding in from left */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Animation for fading in each list item */
+@keyframes fadeInListItem {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Smooth hover effect for list items */
+.skills-list li:hover {
+  transform: translateX(10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("/assets/contact-background.webp");
+  background-size: cover;
+  background-position: center;
+  background-image: url(C:\Users\nikhil.y\Downloads\01-starting-project\src\assets\STARS.webp);
+  height: 100vh;
+}
+
+.contact h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  padding: 0.8rem 2rem;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #e5533d;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 0 1rem;
+  }
+}
