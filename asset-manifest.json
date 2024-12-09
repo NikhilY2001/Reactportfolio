@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.86923f9a.css",
+    "main.js": "/Portfolio/static/js/main.547c7c0d.js",
+    "static/media/rainblow.png": "/Portfolio/static/media/rainblow.11f8c72e55963f66681a.png",
+    "static/media/STARS.webp": "/Portfolio/static/media/STARS.de9d523b8fa284ff0a09.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.86923f9a.css.map": "/Portfolio/static/css/main.86923f9a.css.map",
+    "main.547c7c0d.js.map": "/Portfolio/static/js/main.547c7c0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86923f9a.css",
+    "static/js/main.547c7c0d.js"
+  ]
+}

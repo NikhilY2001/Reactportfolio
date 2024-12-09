@@ -13,7 +13,7 @@ import About from "./components/About";
 function Home() {
   return (
     <section className="home">
-      <h1 className="hero-heading">Welcome to My Portfolio</h1>
+      <h1 className="hero-heading">Welcome to Nikhil's Portfolio</h1>
       <p className="hero-subheading">
         Explore my journey, skills, and passion for web development.
       </p>
@@ -73,7 +73,7 @@ function App() {
               to="/interests"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              Interests
+              Skills
             </NavLink>
           </li>
           <li>

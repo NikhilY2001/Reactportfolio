@@ -17,6 +17,7 @@ function Skills() {
           <li>React Router - Dynamic routing, Nested routes</li>
           <li>
             Performance Optimization - Lazy loading, Memoization (`React.memo`)
+            & many more
           </li>
         </ul>
       </div>
